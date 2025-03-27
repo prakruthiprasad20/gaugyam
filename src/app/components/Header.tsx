@@ -1,20 +1,3 @@
-// "use client";
-// import Link from "next/link";
-
-// const Header = () => {
-//   return (
-//     <nav className="flex justify-between items-center p-5 bg-white-600 text-black">
-//       <h2 className="text-2xl font-bold">GauGyam</h2>
-//       <div className="space-x-5">
-//         <Link href="/">Home</Link>
-//         <Link href="/#contact">Marketplace</Link>
-//         <Link href="/marketplace">Contact Us</Link>
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default Header;
 
 
 "use client";
