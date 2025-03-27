@@ -18,6 +18,8 @@
 
 
 "use client";
+import Image from 'next/image';
+
 import Link from "next/link";
 //import Image from "next/image";
 
@@ -26,7 +28,7 @@ const Header = () => {
     <nav className="flex justify-between items-center p-5 bg-amber-950 shadow-md">
       {/* Left Side - Logo and Title */}
       <div className="flex items-center space-x-3">
-        <img 
+        <Image
           src="/logo_white.png" // Make sure your logo is in the public folder
           alt="GauGyam Logo"
           width={54} 
